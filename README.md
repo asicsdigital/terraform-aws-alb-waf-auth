@@ -47,3 +47,15 @@ output "x_manual_auth_secret" {
   value = "${module.waf_auth.x_manual_auth_target_string}"
 }
 ```
+
+## Authors
+
+John Noss
+
+## Changelog
+
+v0.0.1 - Initial release.
+
+## License
+
+This software is released under the MIT License (see LICENSE).
