@@ -36,7 +36,7 @@ module "waf_auth" {
 
 Or, not specifying secret:
 
-````hcl
+```hcl
 module "waf_auth" {
   source         = "github.com/asicsdigital/terraform-aws-alb-waf-auth?ref=v0.0.1"
   alb_arn        = "<alb arn here>"
