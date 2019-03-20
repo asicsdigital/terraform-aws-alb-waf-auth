@@ -1,7 +1,3 @@
-locals {
-  x_manual_auth_secret_target_string = "${coalesce(var.x_manual_auth_secret, random_id.default_x_manual_auth_secret.b64)}"
-}
-
 # create a random_id, note it will not be used if the input x_manual_auth_secret was specified
 resource "random_id" "default_x_manual_auth_secret" {
   byte_length = 32
