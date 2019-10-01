@@ -10,3 +10,4 @@ variable "x_manual_auth_secret" {
 variable "waf_name_alpha" {
   description = "Name for WAF resources. Note this needs to be alphanumeric only."
 }
+
